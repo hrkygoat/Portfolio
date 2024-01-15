@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--レスポンシブ-->
+<!-- reset.css destyle -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
+<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width:767px)" >
+<link rel="stylesheet" href="css/style.css" media="screen and (min-width:768px)">
+<title>Contact_Yagi's portfolio</title>
+</head>
+<body id="index">
+
+  <header id="top">
+    <h1><a href="index.html"><img src="img/header.png" alt="タイトル"></a></h1>
+    
+    <nav>
+        <ul>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+
+    <div class="hamburger-menu">
+      <input type="checkbox" id="menu-btn-check">
+          <label for="menu-btn-check" class="menu-btn"><span></span></label>
+      <div class="menu-content">
+          <ul>
+              <li>
+                  <a href="profile.html">Profile</a>
+              </li>
+              <li>
+                  <a href="gallery.html">Gallery</a>
+              </li>
+              <li>
+                  <a href="contact.html">Contact</a>
+              </li>
+          </ul>
+      </div>
+  </div>
+
+</header>
+
+    </header>
+
+    <div id="contents">
+        <div id="main" class="scrollanime fadeInDown">
+          <img src="img/contat.png">
+            <article class="scrollanime fadeInDown">
+                <h1>お問い合わせ</h1>
+                <p>このポートフォリオサイトに関するご質問やご希望など、お気軽にお問い合わせください。</p>
+                <ul class="con">
+                  <li>必要事項を記入し、「確認する」をクリックしてください。</li>
+                  <li>ご記入いただいた個人情報は、お問い合わせの回答以外には使用いたしません。</li>
+                </ul>
+              <form action="#">
+                <p>お名前（必須）<br>
+                <label><input type="text" name="name" required>
+                  </label></p>
+                  <p>メールアドレス<br>
+                  <label><input type="email" name="email" required></label></p>
+                  <p>このサイトの評価<br>
+                    <label><input type="radio" name="kind">たいへんよくできてる</label>
+                    <label><input type="radio" name="kind">よくできてる</label>
+                    <label><input type="radio" name="kind">ふつう</label>
+                    <label><input type="radio" name="kind">改善が必要</label>
+                  </p>
+                 <p>コメント<br>
+                   <label><textarea name="message"></textarea> </label></p>
+                  <p style="text-align: center;"><input type="submit" name="確認する" class="btn"> </p>
+              </form>
+            </article>
+        </div>
+
+ 
+    </div>
+
+    <footer class="bottom">
+        <p style="text-align: center;">Web.DTPデザイン科 13 八木 浩騎</p>
+        <p id="copyright" style="text-align: center;"><small>Copyright 2023 portfolio Hiroki Yagi</small></p>
+    </footer>
+
+    <script>
+      $(function () {
+          $(window).scroll(function () {
+              const wHeight = $(window).height();
+              const scrollAmount = $(window).scrollTop();
+              $(".scrollanime").each(function () {
+                  const targetPosition = $(this).offset().top;
+                  if(scrollAmount > targetPosition - wHeight + 60) {
+                      $(this).addClass("fadeInDown");
+                  }
+              });
+          });
+      });
+  </script>
+
+</body>
+</html>

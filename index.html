@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--レスポンシブ-->
+<!-- reset.css destyle -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
+<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width:767px)" >
+<link rel="stylesheet" href="css/style.css" media="screen and (min-width:768px)">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css" integrity="sha512-rV4fiystTwIvs71MLqeLbKbzosmgDS7VU5Xqk1IwFitAM+Aa9x/8Xil4CW+9DjOvVle2iqg4Ncagsbgu2MWxKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Yagi's portfolio</title>
+</head>
+<body id="index">
+
+    <header id="top">
+        <h1><a href="index.html"><img src="img/header.png" alt="タイトル"></a></h1>
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check">
+                <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="profile.html">Profile</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </header>
+
+    <div class="slide scrollanime fadeInDown">
+        <div class="slider-item">
+          <img src="img/s1.JPG">
+        </div>
+        <div class="slider-item">
+          <img src="img/s2.jpg">
+        </div>
+        <div class="slider-item">
+          <img src="img/s3.jpg">
+      </div>
+    </div>
+
+
+    <div id="contents">
+        <div class="profile scrollanime fadeInDown">
+            <div class="icon">
+                <img src="img/profile.png">
+            </div>
+            <div class="pleft scrollanime slide-left">
+                <img src="img/2023-07-29_14-11-40_728.jpg">
+            </div>
+            <div class="pright scrollanime slide-right">
+                <h2 style="font-weight: bold; font-size: 2em;">八木 浩騎</h2>
+                <p style="margin: 0 auto; max-width: 400px;">私はWebデザイナーを志望しています。<br>
+                    職業訓練を通して、様々なスキルや経験を身に着け、
+                    企業において即戦力になれるよう頑張っていきます。</p>
+                <div class="btn">
+                <h3><a href="profile.html">プロフィールを見る</a></h3>
+                </div>
+            </div>
+        </div>
+
+        <div id="main" class="scrollanime updown">
+            <div class="icon">
+                <img src="img/gallery.png">
+            </div>
+            <section class="gallery">
+                <div class="image1 scrollanime updown">
+                    <p>私は写真撮影が好きです。</p>
+                    <img src="img/s1.jpg">
+                </div>
+            </section>
+            <section class="gallery">
+                <div class="image1 scrollanime updown">
+                    <p>絵を描くことも好きです。</p>
+                    <img src="img/IMG_1046.PNG">
+                    
+                </div>
+            </section>
+            <p>その他の作品も添付しているので、ぜひご覧ください。</p>
+            <div class="btn">
+                <h3><a href="gallery.html">続きはこちら</a></h3>
+            </div>
+        </div>
+
+        <div class="site scrollanime updown">
+            <section class="sitelink">
+                <h2 style="text-align: center; font-weight: bold; font-size: 2em; padding: 10px 0;">もうひとつのポートフォリオサイト</h2>
+                    <div class="siteimage">
+                        <img src="img/site.png" alt="site">
+                    </div>
+                    <p>今回はこちらの仮装の温泉サイトも作成しました。<br>
+                    みていただけると嬉しいです。よろしくお願いします。</p>
+                    <div class="btn">
+                        <h3><a href="https://hrkygoat.github.io/hot-spring/" target="_blank" sty>サイトはこちら</a></h3>
+                    </div>
+            </section>
+        </div>
+
+        <div id="sub" class="scrollanime updown">
+            <div class="icon">
+                <img src="img/contat.png">
+            </div>
+            <article>
+                <h1>お問い合わせ</h1>
+                <p>このポートフォリオサイトに関するご質問やご希望など、お気軽にお問い合わせください。</p>
+                
+                  <p>必要事項を記入し、「確認する」をクリックしてください。</p>
+                  <p>ご記入いただいた個人情報は、お問い合わせの回答以外には使用いたしません。</p>
+            
+                </article>
+            <div class="btn">
+                <h3><a href="contact.html">連絡はこちら</a></h3>
+            </div>
+       </div>
+    </div>
+
+    <footer class="bottom">
+        <p id="copyright" style="text-align: center;"><small>Copyright 2023〜2024 portfolio Hiroki Yagi</small></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(function(){
+
+            // セレクタ.bxSlider({
+
+            // });
+
+            $('.slide').bxSlider({
+                auto:true,
+                minSlider: 3,
+                speed: 500,
+                mode: 'fade'
+            });
+        });
+    </script>
+
+    <script>
+$(function () {
+    $(window).scroll(function () {
+        const wHeight = $(window).height();
+        const scrollAmount = $(window).scrollTop();
+        $(".scrollanime").each(function () {
+            const targetPosition = $(this).offset().top;
+            if(scrollAmount > targetPosition - wHeight + 60) {
+                $(this).addClass("fadeInDown");
+            }
+        });
+    });
+});
+    </script>
+
+
+</body>
+</html>

@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">  <!--レスポンシブ-->
+<!-- reset.css destyle -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/destyle.css@1.0.15/destyle.css"/>
+<link rel="stylesheet" href="css/responsive.css" media="screen and (max-width:767px)" >
+<link rel="stylesheet" href="css/style.css" media="screen and (min-width:768px)">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.css" integrity="sha512-rV4fiystTwIvs71MLqeLbKbzosmgDS7VU5Xqk1IwFitAM+Aa9x/8Xil4CW+9DjOvVle2iqg4Ncagsbgu2MWxKQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<title>Gallery_Yagi's portfolio</title>
+</head>
+<body id="index">
+
+    <header id="top">
+        <h1><a href="index.html"><img src="img/header.png" alt="タイトル"></a></h1>
+        
+        <nav>
+            <ul>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="profile.html">Profile</a></li>
+            </ul>
+        </nav>
+ 
+        <div class="hamburger-menu">
+            <input type="checkbox" id="menu-btn-check">
+                <label for="menu-btn-check" class="menu-btn"><span></span></label>
+            <div class="menu-content">
+                <ul>
+                    <li>
+                        <a href="profile.html">Profile</a>
+                    </li>
+                    <li>
+                        <a href="gallery.html">Gallery</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </header>
+
+    <div id="contents">
+        <div class="profile scrollanime fadeInDown">
+            <img src="img/gallery.png">
+            <h1>Photograpy</h1>
+            <p>趣味で風景やポートレート写真を撮ります。</p>
+                <div class="contents_area scrollanime fadeInDown">
+                    <figure><img src="img/aso.jpg">
+                <figcaption>大観峰/熊本県阿蘇市</figcaption></figure>
+                </div>
+                <div class="contents_area scrollanime fadeInDown">
+                    <figure><img src="img/bike.jpeg">
+                <figcaption>ケニーロード/熊本県南阿蘇群高森町</figcaption></figure>
+                </div>
+                <div class="contents_area scrollanime fadeInDown">
+                    <figure><img src="img/kikuchi.jpeg">
+                <figcaption>菊池渓谷/熊本県菊池市</figcaption></figure>
+                </div>
+                <!-- <div class="contents_area">
+                    <figure><img src="img/">
+                <figcaption></figcaption></figure>
+                    </div> -->
+                <div class="cont">
+                    <p style="font-weight: bold;">旅先で撮影した写真を洋服のデザインやポートフォリオなど、
+                        様々なデザインに活用することも楽しみのひとつです。</p>
+                        <div class="contents_area scrollanime updown">
+                            <figure><img src="img/2023-07-30_12-58-59_630.jpeg">
+                        <figcaption>鹿さん<br>
+                            厳島神社/広島県廿日市市宮島町</figcaption></figure>
+                        </div>
+                        <div class="contents_area scrollanime updown">
+                            <figure><img src="img/2023-08-07_12-54-11_000.png">
+                        <figcaption>iPadでグラフィックを作成</figcaption></figure>
+                        </div>
+                        <div class="contents_area scrollanime updown">
+                            <figure><img src="img/2023-08-07_12-57-57_000.png">
+                        <figcaption>完成したTシャツ</figcaption></figure>
+                </div>
+            </div>
+        </div>
+
+        <div id="main" class="scrollanime fadeInDown">
+            <section>
+            <h1>イラスト</h1>
+            <div class="contents_area scrollanime updown">
+                <figure><img src="img/IMG_1525.jpg">
+            <figcaption>中学生の頃に描いた大樹です。</figcaption></figure>
+            </div>
+            <div class="contents_area scrollanime updown">
+                <figure><img src="img/IMG_1046.PNG">
+            <figcaption>ヴェロキラプトル。こちらはiPadで描きました。</figcaption></figure>
+            </div>
+            <div class="contents_area scrollanime updown">
+                <figure><img src="img/IMG_4014.PNG">
+            <figcaption>こちらもiPadで描いた落書きです。</figcaption></figure>
+            </div>
+            </section>
+
+            <!-- <div class="contents_area">
+                <figure><img src="img/">
+            <figcaption></figcaption></figure>
+            </div> -->
+        </div>
+    </div>
+
+    <footer class="bottom">
+        <p style="text-align: center;">Web.DTPデザイン科 13 八木 浩騎</p>
+        <p id="copyright" style="text-align: center;"><small>Copyright 2023〜2024 portfolio Hiroki Yagi</small></p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bxslider/4.2.15/jquery.bxslider.min.js" integrity="sha512-p55Bpm5gf7tvTsmkwyszUe4oVMwxJMoff7Jq3J/oHaBk+tNQvDKNz9/gLxn9vyCjgd6SAoqLnL13fnuZzCYAUA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script>
+        $(function(){
+
+            // セレクタ.bxSlider({
+
+            // });
+
+            $('.slide').bxSlider({
+                auto:true,
+                minSlider: 5,
+                speed: 500,
+                mode: 'fade'
+            });
+        });
+    </script>
+
+<script>
+    $(function () {
+        $(window).scroll(function () {
+            const wHeight = $(window).height();
+            const scrollAmount = $(window).scrollTop();
+            $(".scrollanime").each(function () {
+                const targetPosition = $(this).offset().top;
+                if(scrollAmount > targetPosition - wHeight + 60) {
+                    $(this).addClass("fadeInDown");
+                }
+            });
+        });
+    });
+</script>
+
+</body>
+</html>
