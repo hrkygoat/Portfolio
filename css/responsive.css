@@ -304,13 +304,16 @@ footer .bottom{
 }
 input[type="text"]{
     width: 350px;
+    background-color: white;
 }
 input[type="email"]{
     width: 350px;
+    background-color: white;
 }
 textarea{
-    width: 100%;
+    width: 500px;
     height: 250px;
+    background-color: white;
 }
 .btn {
     display       : inline-block;
