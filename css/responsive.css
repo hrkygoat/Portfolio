@@ -304,15 +304,18 @@ footer .bottom{
 }
 input[type="text"]{
     width: 350px;
+    max-width: 80%;
     background-color: white;
 }
 input[type="email"]{
     width: 350px;
+    max-width: 80%;
     background-color: white;
 }
 textarea{
     width: 350px;
     height: 250px;
+    max-width: 80%;
     background-color: white;
 }
 .btn {
