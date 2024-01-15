@@ -357,9 +357,11 @@ footer .bottom{
 }
 input[type="text"]{
     width: 350px;
+ background-color:white;
 }
 input[type="email"]{
     width: 350px;
+  background-color:white;
 }
 textarea{
     width: 500px;
