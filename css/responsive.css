@@ -1,4 +1,4 @@
-﻿@charset "utf-8";
+@charset "utf-8";
 
 header, nav, #graphic, #contents, footer {
 	width: 100%;
@@ -271,11 +271,14 @@ footer .bottom{
 .job{
     background-color: #d3dad3;
     width: 100%;
-    padding: 2px;
+    padding: 20px 0;
 } 
 .youyaku{
     width: 80%;
     margin: 0 auto;
+}
+.skill{
+    padding: 20px 0;
 }
 .skill_area{
     width: 60%;
@@ -294,7 +297,11 @@ footer .bottom{
     overflow: hidden;
     display: flex;
 }
-
+.portfolio{
+    margin: 0 auto;
+    padding: 30px 15px;
+    text-align: center;
+}
 /* gallery */
 
 
