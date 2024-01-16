@@ -348,7 +348,11 @@ footer .bottom{
     overflow: hidden;
     display: flex;
 }
-
+.portfolio{
+    margin: 0 auto;
+    padding: 30px 15px;
+    text-align: center;
+}
 /* gallery */
 
 /* contact */
