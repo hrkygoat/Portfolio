@@ -263,7 +263,7 @@ footer .bottom{
 /* profile */
 .ppp{
     list-style: none;
-    text-indent: -40px;
+    margin: 15px 0;
 }
 #profile img{
     width: 100%;
