@@ -3,7 +3,7 @@
 /* 基本操作 */
 body{
  line-height: 150%;
-
+    background-color: #ffffff;
 }
 
 header,#contents, footer{
@@ -68,7 +68,7 @@ nav a:hover{
 #main{
     width: 100%;
     padding:25px 50px;
-    background-color: #c5d0c3;
+    background-color: #cde1e1;
     box-sizing: border-box;
     text-align: center;
 }
@@ -80,7 +80,7 @@ nav a:hover{
     margin:20px 50px;
 }
 .site{
-    background-color: #6a7e6e;
+    background-color: #cde;
     margin: 0 auto;
     padding: 20px;
     text-align: center;
@@ -182,7 +182,6 @@ h3{
 .menu-btn span:after {
     top: 8px;
 }
-
 #menu-btn-check:checked ~ .menu-btn span {
     background-color: rgba(255, 255, 255, 0);/*メニューオープン時は真ん中の線を透明にする*/
 }
@@ -259,7 +258,7 @@ footer .bottom{
     text-align: center;
 }
 .profile{
-    background-color: #dadacd;
+    background-color: #4f5873;
     margin: 0 auto;
     padding: 50px 25px;
     text-align: center;
@@ -310,7 +309,7 @@ footer .bottom{
     width: 50%;
 }
 .job{
-    background-color: #e6ffe8;
+    background-color: #cde1e1;
     padding:10px;
 } 
 .job h2{
@@ -342,16 +341,16 @@ footer .bottom{
 
 /* gallery */
 
-#contents_area figure{
-    width: 80%;
-    margin: 0 0 15px 20px;
-    overflow: hidden;
-    display: flex;
-}
 .portfolio{
     margin: 0 auto;
     padding: 30px 15px;
     text-align: center;
+}
+.portfolio .img ,img{
+    width: 800px;
+    max-width: 75%;
+    padding:20px;
+    margin: 0 auto;
 }
 /* gallery */
 
