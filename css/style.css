@@ -67,7 +67,7 @@ nav a:hover{
 }
 #main{
     width: 100%;
-    padding:25px 50px;
+    padding:48px 24px;
     background-color: #cde1e1;
     box-sizing: border-box;
     text-align: center;
@@ -98,13 +98,13 @@ nav a:hover{
 #sub{
     margin: 0 auto;
     text-align: center;
-    padding: 25px 25px;
+    padding: 48px 24px;
 }
 footer{
     color: #ffffff;
     text-align: center;
     background-color: #333;
-    padding: 50px 0;
+    padding: 48px 0;
 }
 /* 基本操作 */
 
@@ -258,9 +258,9 @@ footer .bottom{
     text-align: center;
 }
 .profile{
-    background-color: #4f5873;
+    background-color: #7380a7;
     margin: 0 auto;
-    padding: 50px 25px;
+    padding: 48px 24px;
     text-align: center;
     display: flow-root;
 }
@@ -310,8 +310,12 @@ footer .bottom{
 }
 .job{
     background-color: #cde1e1;
-    padding:10px;
+    padding:48px;
 } 
+.mac ,.satsuki{
+    width: 800px;
+    margin: 0 auto;
+}
 .job h2{
     margin: 15px 0;
 }
@@ -320,6 +324,7 @@ footer .bottom{
     margin: 0 auto;
 }
 .skill{
+    padding: 48px;
     margin: 20px auto;
     width: 80%;
 }
@@ -339,19 +344,6 @@ footer .bottom{
 }
 /* profile */
 
-/* gallery */
-
-.portfolio{
-    margin: 0 auto;
-    padding: 30px 15px;
-    text-align: center;
-}
-.portfolio .img ,img{
-    max-width: 80%;
-    padding:20px;
-    margin: 0 auto;
-}
-/* gallery */
 
 /* contact */
 .con{
